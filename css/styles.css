@@ -45,25 +45,25 @@ footer {
 }
 
 header #logo-web-1 {
- color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 header #logo-studio-1 {
-  color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .hero-image .dark-bg {
@@ -193,18 +193,10 @@ footer #logo-studio {
 
 /* index.html end */
 
-
-
-
 /* Main Page start*/
 /* navigation start */
-footer #text-web {
-  /* display: flex;
-  width: 44px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: center; */
 
+header #logo-web-2 {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
@@ -214,28 +206,7 @@ footer #text-web {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-footer #text-studio {
-  color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-header #logoweb {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-header #logostudio {
+header #logo-studio-2 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
@@ -344,4 +315,33 @@ button {
   margin-top: 72px;
 }
 
+/* footer section start */
+
+footer #text-web {
+  /* display: flex;
+  width: 44px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center; */
+
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+footer #text-studio {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+/* footer section end */
 /* Portfolio page end*/
