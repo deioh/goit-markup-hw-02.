@@ -200,27 +200,28 @@ footer #text-studio {
   text-transform: uppercase;
 }
 
-header #logoweb{
-  color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+header #logoweb {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
-header #logostudio{color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+header #logostudio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
-#nav-default a{
+#nav-default a {
   color: var(--NAVY-BLUE, #2e2f42);
   /* Body Medium */
 
