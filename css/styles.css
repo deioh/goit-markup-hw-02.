@@ -173,7 +173,7 @@ footer #logo-studio {
 
 /* Main Page start*/
 /* navigation start */
-#web {
+footer #text-web {
   /* display: flex;
   width: 44px;
   height: 21px;
@@ -189,15 +189,15 @@ footer #logo-studio {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-#studio {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+footer #text-studio {
+  color: var(--CLOUD, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 
 #nav-default {
