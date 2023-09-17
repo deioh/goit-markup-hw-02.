@@ -44,6 +44,27 @@ footer {
   cursor: pointer;
 }
 
+header #logo-web-1 {
+ color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+header #logo-studio-1 {
+  color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
 .hero-image .dark-bg {
   width: 1440px;
   height: 600px;
@@ -170,6 +191,9 @@ footer #logo-studio {
 /* footer section end */
 
 /* index.html end */
+
+
+
 
 /* Main Page start*/
 /* navigation start */
