@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>GOIT-MARKUP-HW-01</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAIN PAGE</title>
   <!-- External CSS -->
   <link rel="stylesheet" href="./css/styles.css">
 
@@ -20,14 +21,15 @@
   <!-- HEADER -->
 
   <header>
-    <section id="Top-Line">
-      <a href="">WEBSTUDIO</a>
-
+    <section id="top-line">
       <nav>
         <ul>
-          <li><a href="" target="_blank">studio</a></li>
-          <li><a href="portfolio.html" target="">Portfolio</a></li>
-          <li><a href="" target="_blank">Contacts</a></li>
+          <li><span id="web">WEB<span id="studio">STUDIO</span></span></li>
+          <ul>
+            <li><a href="index.html" target="">Studio</a></li>
+            <li><a href="portfolio.html" target="">Portfolio</a></li>
+            <li><a href="" target="_blank">Contacts</a></li>
+          </ul>
         </ul>
       </nav>
       <ul>
@@ -36,92 +38,98 @@
       </ul>
     </section>
 
-    <section id="hero-image">
-      <h1>Effective Solutions for Your Business</h1>
-      <button>Order Service</button>
+    <section class="hero-image">
+      <div class="dark-bg">
+        <!-- <h1 style="padding: 188px 472px 292px 472px;">Effective Solutions for Your Business</h1>          -->
+        <h1 style="margin: 188px 472px 292px 472px;">Effective Solutions for Your Business</h1>
+        <button style="margin-top: 0px">Order Service</button>
+      </div>
     </section>
   </header>
 
   <!-- MAIN -->
 
   <main>
-    <section id="1">
-      <ul>
-        <li>
-          <h3>Strategy</h3>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </li>
-        <li>
-          <h3>Punctuality</h3>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </li>
-        <li>
-          <h3>Diligence</h3>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </li>
-        <li>
-          <h3>Technologies</h3>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </li>
-      </ul>
-    </section>
+    <section id="sections">
+      <section id="section-1">
+        <ul>
+          <li>
+            <h3 style="width: 264px;">Strategy</h3>
+            <p>
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 style="width: 264px;">Punctuality</h3>
+            <p>
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 style="width: 264px;">Diligence</h3>
+            <p>
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 style="width: 264px;">Technologies</h3>
+            <p>
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-    <section id="2">
-      <h2>What are we Doing</h2>
-      <ul>
-        <li><img src="./images/img1.jpg" alt="img 1" width="360" height="300"></li>
-        <li><img src="./images/img2.jpg" alt="img 2" width="360" height="300"></li>
-        <li><img src="./images/img3.jpg" alt="img 3" width="360" height="300"></li>
-      </ul>
-    </section>
+      <section id="section-2">
+        <h2 style="margin-left: 559px;">What are we Doing</h2>
+        <ul>
+          <li><img src="./images/img1.jpg" alt="img 1" width="360" height="300"></li>
+          <li><img src="./images/img2.jpg" alt="img 2" width="360" height="300"></li>
+          <li><img src="./images/img3.jpg" alt="img 3" width="360" height="300"></li>
+        </ul>
+      </section>
 
-    <section id="3">
-      <h2>Our Team</h2>
-      <ul>
-        <li>
-          <img src="./images/img_Mark_Guerrero.jpg" alt="Product Designer" width="264" height="260">
-          <h3>Mark Guerrero</h3>
-          <h4>Product Designer</h4>
-        </li>
-        <li>
-          <img src="./images/img_Tom_Ford.jpg" alt="Frontend Developer" width="264" height="260">
-          <h3>Tom Ford</h3>
-          <h4>Frontend Developer</h4>
-        </li>
-        <li>
-          <img src="./images/img_Camila_Garcia.jpg" alt="Marketing" width="264" height="260">
-          <h3>Camila Garcia</h3>
-          <h4>Marketing</h4>
-        </li>
-        <li>
-          <img src="./images/img_Daniel_Wilson.jpg" alt="UI Designer" width="264" height="260">
-          <h3>Daniel Wilson</h3>
-          <h4>UI Designer</h4>
-        </li>
-      </ul>
+      <section id="section-3">
+        <h2 style="margin-left: 639px;">Our Team</h2>
+        <ul>
+          <li>
+            <img src="./images/img_Mark_Guerrero.jpg" alt="Product Designer" width="264" height="260">
+            <h3>Mark Guerrero</h3>
+            <h4>Product Designer</h4>
+          </li>
+          <li>
+            <img src="./images/img_Tom_Ford.jpg" alt="Frontend Developer" width="264" height="260">
+            <h3>Tom Ford</h3>
+            <h4>Frontend Developer</h4>
+          </li>
+          <li>
+            <img src="./images/img_Camila_Garcia.jpg" alt="Marketing" width="264" height="260">
+            <h3>Camila Garcia</h3>
+            <h4>Marketing</h4>
+          </li>
+          <li>
+            <img src="./images/img_Daniel_Wilson.jpg" alt="UI Designer" width="264" height="260">
+            <h3>Daniel Wilson</h3>
+            <h4>UI Designer</h4>
+          </li>
+        </ul>
+      </section>
     </section>
   </main>
 
   <!-- FOOTER -->
 
   <footer>
-    <a href="">WEBSTUDIO</a>
+    <span id="web">WEB<span id="studio">STUDIO</span></span>
     <h5>
       Increase the flow of customers and <br>
       sales for your business with digital <br>
       marketing & growth solutions.</h5>
+
   </footer>
 </body>
 
